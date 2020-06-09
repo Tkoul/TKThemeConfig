@@ -1,0 +1,6 @@
+framework module TKThemeConfig {
+  umbrella header "TKThemeConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

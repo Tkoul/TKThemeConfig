@@ -7,13 +7,28 @@
 //
 
 #import "TKAppDelegate.h"
-
+#import "TKDemoViewCtrl.h"
+#import <TKThemeConfig/TKThemeConfig.h>
 @implementation TKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //程序加载完毕 在其它组件含有UI元素前，优先设置主题 ，因为主题作用全局的UI
+    //可以设置YES 也可设置NO  根据自己的项目自行选择
+    [self changeThemeCofingFllowSystem:YES];
     return YES;
+}
+#pragma mark -- 程序加载完毕 在其它组件含有UI元素前，优先设置主题 ，因为主题作用全局的UI
+- (void)changeThemeCofingFllowSystem:(BOOL)fllowSystemTheme{
+    if (fllowSystemTheme) {
+        //followSystemTheme 一旦设置YES themeIndex便失去作用 因为跟随系统变更。注释见TKThemeManager.h
+        [TKThemeManager config].followSystemTheme=YES;
+    }else{
+        //followSystemTheme 一旦设置NO themeIndex起作用.注释见TKThemeManager.h
+        [TKThemeManager config].followSystemTheme=NO;
+        [TKThemeManager config].themeIndex =0;
+    }
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

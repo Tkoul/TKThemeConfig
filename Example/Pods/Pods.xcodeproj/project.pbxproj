@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F924CB59243CABB0AA9BDA8635379E /* UITextView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C716A1BF01345FDBF485387A1AD118 /* UITextView+TKUpdate.m */; };
+		0BF5C95E0ABF4FB8824BA03F1F47D306 /* UIProgressView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CB061F6181289629389D1DFDA76844 /* UIProgressView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E17997EE5EE1744DADD03B31F9B8C6E /* Pods-TKThemeConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC87910446FC5D6F8C80B562CB365E /* Pods-TKThemeConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F36C86D45298C2D78B90F860989A8E /* UILabel+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81BE2E286827EC392A305EA95CB2A /* UILabel+TKUpdate.m */; };
+		1392584D2C5C1EDA50ADEDEB70C0545E /* UIStepper+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB99713DABB9AFBD097DFBA7C29500 /* UIStepper+TKUpdate.m */; };
+		1678948DDB6C0B52C51B6E247FD90170 /* UIButton+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0C6FB9FD566CBEBBD6EBCF277D0D7C /* UIButton+TKUpdate.m */; };
+		1B5928C90E5211EBF2240753D75EF9D7 /* UISlider+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAA3CFCF20C4D05D547C38649B7479 /* UISlider+TKUpdate.m */; };
+		1FF567C4AA568196A965C7FF5FD10C4D /* UIImageView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D32983436238D909154B091C4FBE587 /* UIImageView+TKUpdate.m */; };
+		21F989A3F15D0D3E3DB9820E2251D534 /* UITabBar+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD8DC4F557BC600EFDB162217F113 /* UITabBar+TKUpdate.m */; };
+		2C35D8B4F847B44E5CE338EEFAC11A87 /* UITableView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 584F16233A1A294C3B4C05EF767AE9A5 /* UITableView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF32678D5546E986F96AFCA19985507 /* UITextField+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 330F113D2074A7D549BB71D5DF8D2502 /* UITextField+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30DBC436B8DA367EA29E77F04FD5917C /* CALayer+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2070F18DA76575E4ACF0C695C77A7 /* CALayer+TKUpdate.m */; };
+		31B9A41DA62DA1C61530F5DF8B61FD5B /* UITabBar+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FF21F8EDC455FFB2C3604269D42DD5 /* UITabBar+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A21855000D9C60399276EDF8A8B0646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3E177391542B8221B0341DB6637F023B /* Pods-TKThemeConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6008CC87E3B9F942818353529E41AD /* Pods-TKThemeConfig_Example-dummy.m */; };
+		44E7D3E60A7309BC8E78E0362FD05454 /* UIStepper+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3165C34F5875BA2DF7F09D83FC05AA01 /* UIStepper+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556C9248985E8439149A1101D4054127 /* UIView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9841F5D70EB7BBE8AF8E300FE00A42 /* UIView+TKUpdate.m */; };
+		5C923B91D04FAD8CBFDDF58B8CB408E0 /* UITextView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = AF13C982F390767CC727B125C24225F4 /* UITextView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60209DAFB43F49B58ECB9248A99710E1 /* TKThemeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C84ABDD4AA2B3050CA04AC1B6AAC16 /* TKThemeConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606265C267A9842F43304FD712FFA4BD /* TKThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB42F11CE8080AE7CDF66BA8D4BA0C4 /* TKThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66957AD82F71F3E7B4CB0FCEEBF553BF /* CALayer+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242A3C75B5DD29FF74F05C32510B406 /* CALayer+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBDBD88FB2271D6A15A96D6383A7698 /* UIWindow+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC6487A5B00CE0EFCACBEF60DA2A /* UIWindow+TKUpdate.m */; };
+		6FDF27E50B0CB9A3357435B31D28F10C /* UIView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 823F86795B01F2C25F6F29FE949A1140 /* UIView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733BECBEBFB8F678C157CC426F4B5ECE /* TKThemeManager+privateUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7608AC9E4424B2750920A7A6BC7F1493 /* TKThemeManager+privateUpdate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		756F43DA6281A42CC169E14046CAF519 /* TKThemeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 355A7637FB046F9A7926E671D4E760B7 /* TKThemeObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7739A7B0A19A33E1C471BB11548E77DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		7A2646364F0F56B38C25D26901B735AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7E327F266B95069A9D69F4AC28F7D2D8 /* NSObject+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA33044A34060096B2537B98408DFC /* NSObject+TKUpdate.m */; };
+		7EF2950D0BBDCA8E03512B7EA3C23B26 /* Pods-TKThemeConfig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC2B963D1DF6E4F433A88246605F5C3 /* Pods-TKThemeConfig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811F47C590C0FD9C307BC0F78333DFFB /* UIButton+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF5AD4F2448E7E08954C53E4075DB2 /* UIButton+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818B8980486FC6925A7AF2A5C87CEED4 /* TKThemeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54560DFBF42E338051B751F01C4B6156 /* TKThemeObject.m */; };
+		8F9A958D416E4EB171CB26C7BC63D14B /* Pods-TKThemeConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DEFAB277A8467FE6208C8C4FA10225 /* Pods-TKThemeConfig_Tests-dummy.m */; };
+		8FE7A325D1AF0D7BAAB9C6CB32189785 /* UITextField+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CDAB8D7A38C698A2F408B0C2342EF /* UITextField+TKUpdate.m */; };
+		9E3AC29B2B1C3F91A9080792EC72A671 /* UIActivityIndicatorView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A174E94E8C07F35A88665EE59FDF3 /* UIActivityIndicatorView+TKUpdate.m */; };
+		A9C7EA2472D771F20EC5BD863CB71036 /* UIProgressView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C44CB521251A2AA7E9817962F08AAD4 /* UIProgressView+TKUpdate.m */; };
+		BCE3C213815920D02A8CBDFC6A6D9DCD /* UISlider+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = A95701DA8CFB29948AA872404F34331D /* UISlider+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C17A4FFDC5F226DEC18DBDE960175D /* UIPageControl+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = D27038876FF99A460D6B4EAB09558E05 /* UIPageControl+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3A29819306A65CF828363C9B121829 /* UISwitch+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B12098D0CC77EA2F08F59CA910CE11A /* UISwitch+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC80F9E83EF766D67CE2B251D4382083 /* UIImageView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB66C5ED57BDF9EF32C9F026F7351E6 /* UIImageView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD62EBAB17BCE99DBCE89810296963D2 /* TKThemeConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A457182767898100A4607A7BDCF1773F /* TKThemeConfig-dummy.m */; };
+		D348242E7E24CB4D2EACA8C014754F00 /* NSObject+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F3B831DE847953F1A6F7C8C08C8731 /* NSObject+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D49454AC2DCE9D14C42CAFE4BFB1B401 /* UITableView+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869CC3BBB008BAC6D522D5AB009D2DF /* UITableView+TKUpdate.m */; };
+		D8F9D0C7B5A8F66D6C5BCFA74BF9F9F7 /* TKThemeConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6449DD73BEAB80654FAAC34E958B903C /* TKThemeConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6A48B43899EA7A71381B6D7A4673731 /* UISwitch+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = D655243BDB5CEAF2B2709A73851A8EA8 /* UISwitch+TKUpdate.m */; };
+		E77A8B7F357320BF46EFBD800B993E93 /* UIWindow+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F80B7F71E8ED17A944B5F1BA6C5B80 /* UIWindow+TKUpdate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC6F08ADA3072759E24AF183E8E2AF22 /* TKThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD05E8C3F160597799B92C9A930EC96 /* TKThemeManager.m */; };
+		F4C3844B66FD8019564510A005C18478 /* UIPageControl+TKUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = B432B9F74E971D782C3C08B300484CF4 /* UIPageControl+TKUpdate.m */; };
+		F7E08F93BDC0246D530CB923A663626D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F888124C7DB684F79E5D819CDC44DCA0 /* UIActivityIndicatorView+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFC2BEAA54D178F1C9A38C455F95768 /* UIActivityIndicatorView+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB11DABC08AE325E38B619DEEC8B5D59 /* UILabel+TKUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA0AF44E558EA7C4531B05333DAC86D /* UILabel+TKUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F272FEB1C716F4F791543B994C2FE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6D8111EF1D55D9D866161BB8CDFE51;
+			remoteInfo = TKThemeConfig;
+		};
+		B2228DC81FC4319A4B4DD49D400D5071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99E13955B158DF81A79DCA376097C7E;
+			remoteInfo = "Pods-TKThemeConfig_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F408086D0EB8148A0130778E5E67E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1308ECE25191E7B3CAF8CFED39A26617 /* Pods-TKThemeConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKThemeConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1BCA33044A34060096B2537B98408DFC /* NSObject+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TKUpdate.m"; sourceTree = "<group>"; };
+		1C44CB521251A2AA7E9817962F08AAD4 /* UIProgressView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+TKUpdate.m"; sourceTree = "<group>"; };
+		1D32983436238D909154B091C4FBE587 /* UIImageView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TKUpdate.m"; sourceTree = "<group>"; };
+		1D3B33B1AFAABFB715DA240A1EA0E5F6 /* Pods-TKThemeConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThemeConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F8AD8DC4F557BC600EFDB162217F113 /* UITabBar+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+TKUpdate.m"; sourceTree = "<group>"; };
+		28F3B831DE847953F1A6F7C8C08C8731 /* NSObject+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TKUpdate.h"; sourceTree = "<group>"; };
+		2B12098D0CC77EA2F08F59CA910CE11A /* UISwitch+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISwitch+TKUpdate.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3165C34F5875BA2DF7F09D83FC05AA01 /* UIStepper+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIStepper+TKUpdate.h"; sourceTree = "<group>"; };
+		328DBE96A305A955F5E09AF73114624F /* TKThemeConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKThemeConfig-Info.plist"; sourceTree = "<group>"; };
+		330F113D2074A7D549BB71D5DF8D2502 /* UITextField+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+TKUpdate.h"; sourceTree = "<group>"; };
+		355A7637FB046F9A7926E671D4E760B7 /* TKThemeObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKThemeObject.h; sourceTree = "<group>"; };
+		3CB42F11CE8080AE7CDF66BA8D4BA0C4 /* TKThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKThemeManager.h; sourceTree = "<group>"; };
+		3DD05E8C3F160597799B92C9A930EC96 /* TKThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKThemeManager.m; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AA62B7D565F8DEC322875BC824CE8D4 /* TKThemeConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKThemeConfig.xcconfig; sourceTree = "<group>"; };
+		4C6008CC87E3B9F942818353529E41AD /* Pods-TKThemeConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKThemeConfig_Example-dummy.m"; sourceTree = "<group>"; };
+		4F2A174E94E8C07F35A88665EE59FDF3 /* UIActivityIndicatorView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+TKUpdate.m"; sourceTree = "<group>"; };
+		51C84ABDD4AA2B3050CA04AC1B6AAC16 /* TKThemeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKThemeConfig.h; sourceTree = "<group>"; };
+		54560DFBF42E338051B751F01C4B6156 /* TKThemeObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKThemeObject.m; sourceTree = "<group>"; };
+		55C716A1BF01345FDBF485387A1AD118 /* UITextView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TKUpdate.m"; sourceTree = "<group>"; };
+		584F16233A1A294C3B4C05EF767AE9A5 /* UITableView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TKUpdate.h"; sourceTree = "<group>"; };
+		5869CC3BBB008BAC6D522D5AB009D2DF /* UITableView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TKUpdate.m"; sourceTree = "<group>"; };
+		5955119D653559436210ECACE1798E1C /* TKThemeConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKThemeConfig.modulemap; sourceTree = "<group>"; };
+		5B3B203D89E399EE15DEE3C2674250D3 /* Pods_TKThemeConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKThemeConfig_Tests.framework; path = "Pods-TKThemeConfig_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B74B650D8FE9737295296EADF44A35A /* Pods-TKThemeConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKThemeConfig_Tests.modulemap"; sourceTree = "<group>"; };
+		62F5DA6CCE5A76C6C7D18EEA5A2287D9 /* Pods-TKThemeConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThemeConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6449DD73BEAB80654FAAC34E958B903C /* TKThemeConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKThemeConfig-umbrella.h"; sourceTree = "<group>"; };
+		67750501E4E39229E2254FD5054432F8 /* Pods-TKThemeConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThemeConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71FBDDA1BD13C19C92B22B83E30D0530 /* TKThemeConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKThemeConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7608AC9E4424B2750920A7A6BC7F1493 /* TKThemeManager+privateUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKThemeManager+privateUpdate.h"; sourceTree = "<group>"; };
+		79D26C86C6366918C0E3D0031D1B012A /* Pods-TKThemeConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThemeConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		800C9AFF7AEE4DD5CF2BFE0EA1745389 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		80FF21F8EDC455FFB2C3604269D42DD5 /* UITabBar+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+TKUpdate.h"; sourceTree = "<group>"; };
+		823F86795B01F2C25F6F29FE949A1140 /* UIView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TKUpdate.h"; sourceTree = "<group>"; };
+		8242A3C75B5DD29FF74F05C32510B406 /* CALayer+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+TKUpdate.h"; sourceTree = "<group>"; };
+		83BAA3CFCF20C4D05D547C38649B7479 /* UISlider+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISlider+TKUpdate.m"; sourceTree = "<group>"; };
+		88CB061F6181289629389D1DFDA76844 /* UIProgressView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+TKUpdate.h"; sourceTree = "<group>"; };
+		893ED384C2213E067E5FABF21028BE86 /* TKThemeConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKThemeConfig-prefix.pch"; sourceTree = "<group>"; };
+		8953FE0A293ACD53FBF86BED74A109D1 /* Pods-TKThemeConfig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKThemeConfig_Example.modulemap"; sourceTree = "<group>"; };
+		8A10A344CB21DE611349E17E69774C21 /* Pods-TKThemeConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThemeConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93D2070F18DA76575E4ACF0C695C77A7 /* CALayer+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TKUpdate.m"; sourceTree = "<group>"; };
+		9B0CDAB8D7A38C698A2F408B0C2342EF /* UITextField+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TKUpdate.m"; sourceTree = "<group>"; };
+		9CA0AF44E558EA7C4531B05333DAC86D /* UILabel+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+TKUpdate.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1FA1F16B49353F503D677E6DC89925 /* Pods-TKThemeConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThemeConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A457182767898100A4607A7BDCF1773F /* TKThemeConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKThemeConfig-dummy.m"; sourceTree = "<group>"; };
+		A5AF5AD4F2448E7E08954C53E4075DB2 /* UIButton+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+TKUpdate.h"; sourceTree = "<group>"; };
+		A95701DA8CFB29948AA872404F34331D /* UISlider+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISlider+TKUpdate.h"; sourceTree = "<group>"; };
+		A9DC87910446FC5D6F8C80B562CB365E /* Pods-TKThemeConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKThemeConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AF13C982F390767CC727B125C24225F4 /* UITextView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+TKUpdate.h"; sourceTree = "<group>"; };
+		B432B9F74E971D782C3C08B300484CF4 /* UIPageControl+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+TKUpdate.m"; sourceTree = "<group>"; };
+		B5DEFAB277A8467FE6208C8C4FA10225 /* Pods-TKThemeConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKThemeConfig_Tests-dummy.m"; sourceTree = "<group>"; };
+		BAC2B963D1DF6E4F433A88246605F5C3 /* Pods-TKThemeConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKThemeConfig_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC9841F5D70EB7BBE8AF8E300FE00A42 /* UIView+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKUpdate.m"; sourceTree = "<group>"; };
+		BF0AEBBD46895D169609C9FEE5661988 /* Pods-TKThemeConfig_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThemeConfig_Example-Info.plist"; sourceTree = "<group>"; };
+		C041FD14C57C311BD6C3DE5595F62177 /* Pods-TKThemeConfig_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThemeConfig_Tests-Info.plist"; sourceTree = "<group>"; };
+		C4FBF7DA2252C7EA2F55D42ED82CB566 /* Pods-TKThemeConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKThemeConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5517D50D3FA7FA8103BB9E875F41BF8 /* TKThemeConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKThemeConfig.framework; path = TKThemeConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0C6FB9FD566CBEBBD6EBCF277D0D7C /* UIButton+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TKUpdate.m"; sourceTree = "<group>"; };
+		CFFC2BEAA54D178F1C9A38C455F95768 /* UIActivityIndicatorView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+TKUpdate.h"; sourceTree = "<group>"; };
+		D27038876FF99A460D6B4EAB09558E05 /* UIPageControl+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+TKUpdate.h"; sourceTree = "<group>"; };
+		D400FC6487A5B00CE0EFCACBEF60DA2A /* UIWindow+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TKUpdate.m"; sourceTree = "<group>"; };
+		D655243BDB5CEAF2B2709A73851A8EA8 /* UISwitch+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+TKUpdate.m"; sourceTree = "<group>"; };
+		E3B81BE2E286827EC392A305EA95CB2A /* UILabel+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TKUpdate.m"; sourceTree = "<group>"; };
+		E4071D693DB8DD36069F3A11988B6B9A /* Pods_TKThemeConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKThemeConfig_Example.framework; path = "Pods-TKThemeConfig_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB66C5ED57BDF9EF32C9F026F7351E6 /* UIImageView+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TKUpdate.h"; sourceTree = "<group>"; };
+		F1DB99713DABB9AFBD097DFBA7C29500 /* UIStepper+TKUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+TKUpdate.m"; sourceTree = "<group>"; };
+		F4F80B7F71E8ED17A944B5F1BA6C5B80 /* UIWindow+TKUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TKUpdate.h"; sourceTree = "<group>"; };
+		F510BFA5715883940A53C8A1E0CD7533 /* Pods-TKThemeConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKThemeConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0049B1CEABCB61C78DCB32DE662A7684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2646364F0F56B38C25D26901B735AB /* Foundation.framework in Frameworks */,
+				7739A7B0A19A33E1C471BB11548E77DA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540D7EBFB8ADE6E866BF8BCC3D256A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E08F93BDC0246D530CB923A663626D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966254DD24E2F3A90FDF12C1F7581DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21855000D9C60399276EDF8A8B0646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0770AF59235557A7A2742BD8163D1A67 /* TKThemeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8242A3C75B5DD29FF74F05C32510B406 /* CALayer+TKUpdate.h */,
+				93D2070F18DA76575E4ACF0C695C77A7 /* CALayer+TKUpdate.m */,
+				28F3B831DE847953F1A6F7C8C08C8731 /* NSObject+TKUpdate.h */,
+				1BCA33044A34060096B2537B98408DFC /* NSObject+TKUpdate.m */,
+				CFFC2BEAA54D178F1C9A38C455F95768 /* UIActivityIndicatorView+TKUpdate.h */,
+				4F2A174E94E8C07F35A88665EE59FDF3 /* UIActivityIndicatorView+TKUpdate.m */,
+				A5AF5AD4F2448E7E08954C53E4075DB2 /* UIButton+TKUpdate.h */,
+				CA0C6FB9FD566CBEBBD6EBCF277D0D7C /* UIButton+TKUpdate.m */,
+				ECB66C5ED57BDF9EF32C9F026F7351E6 /* UIImageView+TKUpdate.h */,
+				1D32983436238D909154B091C4FBE587 /* UIImageView+TKUpdate.m */,
+				9CA0AF44E558EA7C4531B05333DAC86D /* UILabel+TKUpdate.h */,
+				E3B81BE2E286827EC392A305EA95CB2A /* UILabel+TKUpdate.m */,
+				D27038876FF99A460D6B4EAB09558E05 /* UIPageControl+TKUpdate.h */,
+				B432B9F74E971D782C3C08B300484CF4 /* UIPageControl+TKUpdate.m */,
+				88CB061F6181289629389D1DFDA76844 /* UIProgressView+TKUpdate.h */,
+				1C44CB521251A2AA7E9817962F08AAD4 /* UIProgressView+TKUpdate.m */,
+				A95701DA8CFB29948AA872404F34331D /* UISlider+TKUpdate.h */,
+				83BAA3CFCF20C4D05D547C38649B7479 /* UISlider+TKUpdate.m */,
+				3165C34F5875BA2DF7F09D83FC05AA01 /* UIStepper+TKUpdate.h */,
+				F1DB99713DABB9AFBD097DFBA7C29500 /* UIStepper+TKUpdate.m */,
+				2B12098D0CC77EA2F08F59CA910CE11A /* UISwitch+TKUpdate.h */,
+				D655243BDB5CEAF2B2709A73851A8EA8 /* UISwitch+TKUpdate.m */,
+				80FF21F8EDC455FFB2C3604269D42DD5 /* UITabBar+TKUpdate.h */,
+				1F8AD8DC4F557BC600EFDB162217F113 /* UITabBar+TKUpdate.m */,
+				584F16233A1A294C3B4C05EF767AE9A5 /* UITableView+TKUpdate.h */,
+				5869CC3BBB008BAC6D522D5AB009D2DF /* UITableView+TKUpdate.m */,
+				330F113D2074A7D549BB71D5DF8D2502 /* UITextField+TKUpdate.h */,
+				9B0CDAB8D7A38C698A2F408B0C2342EF /* UITextField+TKUpdate.m */,
+				AF13C982F390767CC727B125C24225F4 /* UITextView+TKUpdate.h */,
+				55C716A1BF01345FDBF485387A1AD118 /* UITextView+TKUpdate.m */,
+				823F86795B01F2C25F6F29FE949A1140 /* UIView+TKUpdate.h */,
+				BC9841F5D70EB7BBE8AF8E300FE00A42 /* UIView+TKUpdate.m */,
+			);
+			name = TKThemeCategory;
+			path = TKThemeConfig/Classes/TKThemeCategory;
+			sourceTree = "<group>";
+		};
+		14BD9B3CEB94444F64A8C1C112254F20 /* TKThemeTools */ = {
+			isa = PBXGroup;
+			children = (
+				7608AC9E4424B2750920A7A6BC7F1493 /* TKThemeManager+privateUpdate.h */,
+				355A7637FB046F9A7926E671D4E760B7 /* TKThemeObject.h */,
+				54560DFBF42E338051B751F01C4B6156 /* TKThemeObject.m */,
+				F4F80B7F71E8ED17A944B5F1BA6C5B80 /* UIWindow+TKUpdate.h */,
+				D400FC6487A5B00CE0EFCACBEF60DA2A /* UIWindow+TKUpdate.m */,
+			);
+			name = TKThemeTools;
+			path = TKThemeConfig/Classes/TKThemeTools;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E73EADAC6194AE1DE0C7B56B79A832 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F5118811D992C92E9916623C8CD7D0 /* TKThemeConfig */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B553EDA19AA96242EE3DA2AE09FDB2B /* Pods-TKThemeConfig_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B74B650D8FE9737295296EADF44A35A /* Pods-TKThemeConfig_Tests.modulemap */,
+				C4FBF7DA2252C7EA2F55D42ED82CB566 /* Pods-TKThemeConfig_Tests-acknowledgements.markdown */,
+				62F5DA6CCE5A76C6C7D18EEA5A2287D9 /* Pods-TKThemeConfig_Tests-acknowledgements.plist */,
+				B5DEFAB277A8467FE6208C8C4FA10225 /* Pods-TKThemeConfig_Tests-dummy.m */,
+				C041FD14C57C311BD6C3DE5595F62177 /* Pods-TKThemeConfig_Tests-Info.plist */,
+				A9DC87910446FC5D6F8C80B562CB365E /* Pods-TKThemeConfig_Tests-umbrella.h */,
+				79D26C86C6366918C0E3D0031D1B012A /* Pods-TKThemeConfig_Tests.debug.xcconfig */,
+				67750501E4E39229E2254FD5054432F8 /* Pods-TKThemeConfig_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKThemeConfig_Tests";
+			path = "Target Support Files/Pods-TKThemeConfig_Tests";
+			sourceTree = "<group>";
+		};
+		9A0E871FFDC222DEF4975A13FD00182F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				800C9AFF7AEE4DD5CF2BFE0EA1745389 /* LICENSE */,
+				04F408086D0EB8148A0130778E5E67E7 /* README.md */,
+				71FBDDA1BD13C19C92B22B83E30D0530 /* TKThemeConfig.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A2989FA1C7BE813ED90A07C7E58FCF36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D248144F829E4B72B8B2869F44C9B2D9 /* Pods-TKThemeConfig_Example */,
+				8B553EDA19AA96242EE3DA2AE09FDB2B /* Pods-TKThemeConfig_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2F5118811D992C92E9916623C8CD7D0 /* TKThemeConfig */ = {
+			isa = PBXGroup;
+			children = (
+				9A0E871FFDC222DEF4975A13FD00182F /* Pod */,
+				C8204E902F533074602EFC75B6DC9225 /* Support Files */,
+				E31BC3C6C3A95D4383D360AD901C7E4C /* TKTheme */,
+				0770AF59235557A7A2742BD8163D1A67 /* TKThemeCategory */,
+				14BD9B3CEB94444F64A8C1C112254F20 /* TKThemeTools */,
+			);
+			name = TKThemeConfig;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA6E85270510820A14753E849294235A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4071D693DB8DD36069F3A11988B6B9A /* Pods_TKThemeConfig_Example.framework */,
+				5B3B203D89E399EE15DEE3C2674250D3 /* Pods_TKThemeConfig_Tests.framework */,
+				C5517D50D3FA7FA8103BB9E875F41BF8 /* TKThemeConfig.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8204E902F533074602EFC75B6DC9225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5955119D653559436210ECACE1798E1C /* TKThemeConfig.modulemap */,
+				4AA62B7D565F8DEC322875BC824CE8D4 /* TKThemeConfig.xcconfig */,
+				A457182767898100A4607A7BDCF1773F /* TKThemeConfig-dummy.m */,
+				328DBE96A305A955F5E09AF73114624F /* TKThemeConfig-Info.plist */,
+				893ED384C2213E067E5FABF21028BE86 /* TKThemeConfig-prefix.pch */,
+				6449DD73BEAB80654FAAC34E958B903C /* TKThemeConfig-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKThemeConfig";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				82E73EADAC6194AE1DE0C7B56B79A832 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				AA6E85270510820A14753E849294235A /* Products */,
+				A2989FA1C7BE813ED90A07C7E58FCF36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D248144F829E4B72B8B2869F44C9B2D9 /* Pods-TKThemeConfig_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8953FE0A293ACD53FBF86BED74A109D1 /* Pods-TKThemeConfig_Example.modulemap */,
+				F510BFA5715883940A53C8A1E0CD7533 /* Pods-TKThemeConfig_Example-acknowledgements.markdown */,
+				9F1FA1F16B49353F503D677E6DC89925 /* Pods-TKThemeConfig_Example-acknowledgements.plist */,
+				4C6008CC87E3B9F942818353529E41AD /* Pods-TKThemeConfig_Example-dummy.m */,
+				1308ECE25191E7B3CAF8CFED39A26617 /* Pods-TKThemeConfig_Example-frameworks.sh */,
+				BF0AEBBD46895D169609C9FEE5661988 /* Pods-TKThemeConfig_Example-Info.plist */,
+				BAC2B963D1DF6E4F433A88246605F5C3 /* Pods-TKThemeConfig_Example-umbrella.h */,
+				8A10A344CB21DE611349E17E69774C21 /* Pods-TKThemeConfig_Example.debug.xcconfig */,
+				1D3B33B1AFAABFB715DA240A1EA0E5F6 /* Pods-TKThemeConfig_Example.release.xcconfig */,
+			);
+			name = "Pods-TKThemeConfig_Example";
+			path = "Target Support Files/Pods-TKThemeConfig_Example";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E31BC3C6C3A95D4383D360AD901C7E4C /* TKTheme */ = {
+			isa = PBXGroup;
+			children = (
+				51C84ABDD4AA2B3050CA04AC1B6AAC16 /* TKThemeConfig.h */,
+				3CB42F11CE8080AE7CDF66BA8D4BA0C4 /* TKThemeManager.h */,
+				3DD05E8C3F160597799B92C9A930EC96 /* TKThemeManager.m */,
+			);
+			name = TKTheme;
+			path = TKThemeConfig/Classes/TKTheme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09C62F3E1F2A6540B0CC46DC88226826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF2950D0BBDCA8E03512B7EA3C23B26 /* Pods-TKThemeConfig_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD38645F65AA0D28C1EF97F4F5BE66A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66957AD82F71F3E7B4CB0FCEEBF553BF /* CALayer+TKUpdate.h in Headers */,
+				D348242E7E24CB4D2EACA8C014754F00 /* NSObject+TKUpdate.h in Headers */,
+				D8F9D0C7B5A8F66D6C5BCFA74BF9F9F7 /* TKThemeConfig-umbrella.h in Headers */,
+				60209DAFB43F49B58ECB9248A99710E1 /* TKThemeConfig.h in Headers */,
+				733BECBEBFB8F678C157CC426F4B5ECE /* TKThemeManager+privateUpdate.h in Headers */,
+				606265C267A9842F43304FD712FFA4BD /* TKThemeManager.h in Headers */,
+				756F43DA6281A42CC169E14046CAF519 /* TKThemeObject.h in Headers */,
+				F888124C7DB684F79E5D819CDC44DCA0 /* UIActivityIndicatorView+TKUpdate.h in Headers */,
+				811F47C590C0FD9C307BC0F78333DFFB /* UIButton+TKUpdate.h in Headers */,
+				CC80F9E83EF766D67CE2B251D4382083 /* UIImageView+TKUpdate.h in Headers */,
+				FB11DABC08AE325E38B619DEEC8B5D59 /* UILabel+TKUpdate.h in Headers */,
+				C6C17A4FFDC5F226DEC18DBDE960175D /* UIPageControl+TKUpdate.h in Headers */,
+				0BF5C95E0ABF4FB8824BA03F1F47D306 /* UIProgressView+TKUpdate.h in Headers */,
+				BCE3C213815920D02A8CBDFC6A6D9DCD /* UISlider+TKUpdate.h in Headers */,
+				44E7D3E60A7309BC8E78E0362FD05454 /* UIStepper+TKUpdate.h in Headers */,
+				CB3A29819306A65CF828363C9B121829 /* UISwitch+TKUpdate.h in Headers */,
+				31B9A41DA62DA1C61530F5DF8B61FD5B /* UITabBar+TKUpdate.h in Headers */,
+				2C35D8B4F847B44E5CE338EEFAC11A87 /* UITableView+TKUpdate.h in Headers */,
+				2FF32678D5546E986F96AFCA19985507 /* UITextField+TKUpdate.h in Headers */,
+				5C923B91D04FAD8CBFDDF58B8CB408E0 /* UITextView+TKUpdate.h in Headers */,
+				6FDF27E50B0CB9A3357435B31D28F10C /* UIView+TKUpdate.h in Headers */,
+				E77A8B7F357320BF46EFBD800B993E93 /* UIWindow+TKUpdate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94733B1D91C31EDB5644A2E75A7A3CAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E17997EE5EE1744DADD03B31F9B8C6E /* Pods-TKThemeConfig_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9E0163FCBA50B6B7C36D9366B8471102 /* Pods-TKThemeConfig_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A5BD19ABF304DC401F4CBD81F58FC /* Build configuration list for PBXNativeTarget "Pods-TKThemeConfig_Tests" */;
+			buildPhases = (
+				94733B1D91C31EDB5644A2E75A7A3CAC /* Headers */,
+				7A94A50D2C79BA8984B476B2F27ED0BB /* Sources */,
+				540D7EBFB8ADE6E866BF8BCC3D256A54 /* Frameworks */,
+				E34052BA959489605498F38179E1BC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B449F1A30E60A8EBD91E109904B434F /* PBXTargetDependency */,
+			);
+			name = "Pods-TKThemeConfig_Tests";
+			productName = "Pods-TKThemeConfig_Tests";
+			productReference = 5B3B203D89E399EE15DEE3C2674250D3 /* Pods_TKThemeConfig_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD6D8111EF1D55D9D866161BB8CDFE51 /* TKThemeConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC178E02C8925D779F86E009120813AD /* Build configuration list for PBXNativeTarget "TKThemeConfig" */;
+			buildPhases = (
+				1CD38645F65AA0D28C1EF97F4F5BE66A /* Headers */,
+				C7EEEAC413B9722DAE0BC35F2FCEC55E /* Sources */,
+				0049B1CEABCB61C78DCB32DE662A7684 /* Frameworks */,
+				F98BE6FC1ECCA9CD68E0C3D567078CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKThemeConfig;
+			productName = TKThemeConfig;
+			productReference = C5517D50D3FA7FA8103BB9E875F41BF8 /* TKThemeConfig.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99E13955B158DF81A79DCA376097C7E /* Pods-TKThemeConfig_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE9397CABAE19CD6911B3DC7B9D2DA8 /* Build configuration list for PBXNativeTarget "Pods-TKThemeConfig_Example" */;
+			buildPhases = (
+				09C62F3E1F2A6540B0CC46DC88226826 /* Headers */,
+				0282FA3B8AB73C6E798B81579E1CCC4B /* Sources */,
+				966254DD24E2F3A90FDF12C1F7581DF5 /* Frameworks */,
+				6B35E06C2CD66B3B5441173A718FCE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB30E8B8B384CF4AAEA91603E79DDFE /* PBXTargetDependency */,
+			);
+			name = "Pods-TKThemeConfig_Example";
+			productName = "Pods-TKThemeConfig_Example";
+			productReference = E4071D693DB8DD36069F3A11988B6B9A /* Pods_TKThemeConfig_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA6E85270510820A14753E849294235A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99E13955B158DF81A79DCA376097C7E /* Pods-TKThemeConfig_Example */,
+				9E0163FCBA50B6B7C36D9366B8471102 /* Pods-TKThemeConfig_Tests */,
+				BD6D8111EF1D55D9D866161BB8CDFE51 /* TKThemeConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B35E06C2CD66B3B5441173A718FCE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34052BA959489605498F38179E1BC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98BE6FC1ECCA9CD68E0C3D567078CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0282FA3B8AB73C6E798B81579E1CCC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E177391542B8221B0341DB6637F023B /* Pods-TKThemeConfig_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94A50D2C79BA8984B476B2F27ED0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9A958D416E4EB171CB26C7BC63D14B /* Pods-TKThemeConfig_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EEEAC413B9722DAE0BC35F2FCEC55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DBC436B8DA367EA29E77F04FD5917C /* CALayer+TKUpdate.m in Sources */,
+				7E327F266B95069A9D69F4AC28F7D2D8 /* NSObject+TKUpdate.m in Sources */,
+				CD62EBAB17BCE99DBCE89810296963D2 /* TKThemeConfig-dummy.m in Sources */,
+				EC6F08ADA3072759E24AF183E8E2AF22 /* TKThemeManager.m in Sources */,
+				818B8980486FC6925A7AF2A5C87CEED4 /* TKThemeObject.m in Sources */,
+				9E3AC29B2B1C3F91A9080792EC72A671 /* UIActivityIndicatorView+TKUpdate.m in Sources */,
+				1678948DDB6C0B52C51B6E247FD90170 /* UIButton+TKUpdate.m in Sources */,
+				1FF567C4AA568196A965C7FF5FD10C4D /* UIImageView+TKUpdate.m in Sources */,
+				11F36C86D45298C2D78B90F860989A8E /* UILabel+TKUpdate.m in Sources */,
+				F4C3844B66FD8019564510A005C18478 /* UIPageControl+TKUpdate.m in Sources */,
+				A9C7EA2472D771F20EC5BD863CB71036 /* UIProgressView+TKUpdate.m in Sources */,
+				1B5928C90E5211EBF2240753D75EF9D7 /* UISlider+TKUpdate.m in Sources */,
+				1392584D2C5C1EDA50ADEDEB70C0545E /* UIStepper+TKUpdate.m in Sources */,
+				E6A48B43899EA7A71381B6D7A4673731 /* UISwitch+TKUpdate.m in Sources */,
+				21F989A3F15D0D3E3DB9820E2251D534 /* UITabBar+TKUpdate.m in Sources */,
+				D49454AC2DCE9D14C42CAFE4BFB1B401 /* UITableView+TKUpdate.m in Sources */,
+				8FE7A325D1AF0D7BAAB9C6CB32189785 /* UITextField+TKUpdate.m in Sources */,
+				01F924CB59243CABB0AA9BDA8635379E /* UITextView+TKUpdate.m in Sources */,
+				556C9248985E8439149A1101D4054127 /* UIView+TKUpdate.m in Sources */,
+				6FBDBD88FB2271D6A15A96D6383A7698 /* UIWindow+TKUpdate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B449F1A30E60A8EBD91E109904B434F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKThemeConfig_Example";
+			target = E99E13955B158DF81A79DCA376097C7E /* Pods-TKThemeConfig_Example */;
+			targetProxy = B2228DC81FC4319A4B4DD49D400D5071 /* PBXContainerItemProxy */;
+		};
+		9DB30E8B8B384CF4AAEA91603E79DDFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKThemeConfig;
+			target = BD6D8111EF1D55D9D866161BB8CDFE51 /* TKThemeConfig */;
+			targetProxy = 7F272FEB1C716F4F791543B994C2FE2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BF83578F2D02F61F20A7CA55E966857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D26C86C6366918C0E3D0031D1B012A /* Pods-TKThemeConfig_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThemeConfig_Tests/Pods-TKThemeConfig_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThemeConfig_Tests/Pods-TKThemeConfig_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BA931D9B63C505B6F64E6CF6EAD8C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67750501E4E39229E2254FD5054432F8 /* Pods-TKThemeConfig_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThemeConfig_Tests/Pods-TKThemeConfig_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThemeConfig_Tests/Pods-TKThemeConfig_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E4FE3712FC312BDC85699837BD9CFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A10A344CB21DE611349E17E69774C21 /* Pods-TKThemeConfig_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThemeConfig_Example/Pods-TKThemeConfig_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThemeConfig_Example/Pods-TKThemeConfig_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A589483F22DAEA8905341A1B4EA77F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA62B7D565F8DEC322875BC824CE8D4 /* TKThemeConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKThemeConfig/TKThemeConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKThemeConfig/TKThemeConfig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKThemeConfig/TKThemeConfig.modulemap";
+				PRODUCT_MODULE_NAME = TKThemeConfig;
+				PRODUCT_NAME = TKThemeConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE90CB1E1330D0C6166C20ACE5FE22A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3B33B1AFAABFB715DA240A1EA0E5F6 /* Pods-TKThemeConfig_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThemeConfig_Example/Pods-TKThemeConfig_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThemeConfig_Example/Pods-TKThemeConfig_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA3134CE94B7A4C0996D36B6EAADC87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA62B7D565F8DEC322875BC824CE8D4 /* TKThemeConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKThemeConfig/TKThemeConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKThemeConfig/TKThemeConfig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKThemeConfig/TKThemeConfig.modulemap";
+				PRODUCT_MODULE_NAME = TKThemeConfig;
+				PRODUCT_NAME = TKThemeConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE9397CABAE19CD6911B3DC7B9D2DA8 /* Build configuration list for PBXNativeTarget "Pods-TKThemeConfig_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4FE3712FC312BDC85699837BD9CFCF /* Debug */,
+				BE90CB1E1330D0C6166C20ACE5FE22A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559A5BD19ABF304DC401F4CBD81F58FC /* Build configuration list for PBXNativeTarget "Pods-TKThemeConfig_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF83578F2D02F61F20A7CA55E966857 /* Debug */,
+				3BA931D9B63C505B6F64E6CF6EAD8C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC178E02C8925D779F86E009120813AD /* Build configuration list for PBXNativeTarget "TKThemeConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3134CE94B7A4C0996D36B6EAADC87B /* Debug */,
+				A589483F22DAEA8905341A1B4EA77F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
