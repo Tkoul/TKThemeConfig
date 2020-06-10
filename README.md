@@ -20,6 +20,10 @@ tkThemeChangeBlock进行回调设置变更。
   
   PS:  欢迎交流 一起提升！邮箱Tkoull@163.com
   
+  ## Move Show Style
+  看下效果吧：
+ [![Watch the video](https://github.com/Tkoul/TKThemeConfig/blob/master/iosTheme.jpg)](https://v.youku.com/v_show/id_XNDcwNTcxODMwNA==.html)
+  
   ## How To Get Started
   在使用到的地方  #import <TKThemeConfig/TKThemeConfig.h>
   在- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 方法初始化
@@ -120,4 +124,6 @@ Tkoul, Tkoull@163.com
 ## License
 
 TKThemeConfig is available under the MIT license. See the LICENSE file for more info.
-             [![Watch the video](https://github.com/Tkoul/TKThemeConfig/blob/master/iOSDarkDemo.mp4)]
+            
+
+

@@ -1,5 +1,5 @@
 PODS:
-  - TKThemeConfig (0.1.0)
+  - TKThemeConfig (0.1.1)
 
 DEPENDENCIES:
   - TKThemeConfig (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TKThemeConfig: 2083300f669301be53a3acf97d5e218653f6455a
+  TKThemeConfig: ad7c982087aa1fa77fb2c52868df65e84271d1e1
 
 PODFILE CHECKSUM: 5622ee43da9a259ebcfcbe88077fc65c9550f6b7
 

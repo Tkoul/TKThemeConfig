@@ -16,6 +16,9 @@
     //程序加载完毕 在其它组件含有UI元素前，优先设置主题 ，因为主题作用全局的UI
     //可以设置YES 也可设置NO  根据自己的项目自行选择
     [self changeThemeCofingFllowSystem:YES];
+    
+    UINavigationController *navRoot = [[UINavigationController alloc]initWithRootViewController:[[TKDemoViewCtrl alloc] init]];
+    self.window.rootViewController = navRoot;
     return YES;
 }
 #pragma mark -- 程序加载完毕 在其它组件含有UI元素前，优先设置主题 ，因为主题作用全局的UI
