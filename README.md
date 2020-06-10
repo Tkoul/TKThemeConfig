@@ -22,6 +22,7 @@ tkThemeChangeBlock进行回调设置变更。
   
   ## Move Show Style
   看下效果吧：
+  
  [![Watch the video](https://github.com/Tkoul/TKThemeConfig/blob/master/iosTheme.jpg)](https://v.youku.com/v_show/id_XNDcwNTcxODMwNA==.html)
   
   ## How To Get Started
