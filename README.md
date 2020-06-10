@@ -21,7 +21,7 @@ tkThemeChangeBlock进行回调设置变更。
   PS:  欢迎交流 一起提升！邮箱Tkoull@163.com
   
   ## Move Show Style
-  看下效果吧：
+  看下效果吧，点击图片，跳转视频连接（ps：上传的视频到免费网站，有十几秒广告 😔 😌 😔 ）：
   
  [![Watch the video](https://github.com/Tkoul/TKThemeConfig/blob/master/iosTheme.jpg)](https://v.youku.com/v_show/id_XNDcwNTcxODMwNA==.html)
   
