@@ -18,6 +18,9 @@
 @property(strong,nonatomic)NSMutableArray  *tkBlockArry;
 //实际起作用的设置主题的随用
 @property(assign,nonatomic)NSUInteger themeIndexRealy;
+
+@property (nonatomic ,strong)dispatch_source_t timer;
+
 @end
 
 @implementation TKThemeManager
@@ -52,15 +55,19 @@ static dispatch_once_t onceToken;
             });
         }
     };
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        config.clearnBlockTimer = [NSTimer scheduledTimerWithTimeInterval:15.0 target:config selector:@selector(tkThmenConfigClearnBlocks) userInfo:nil repeats:YES];
-        [[NSRunLoop currentRunLoop] addTimer:config.clearnBlockTimer forMode:NSRunLoopCommonModes];
-        [[NSRunLoop currentRunLoop] run];
+    NSTimeInterval period = 15.0; //设置时间间隔
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_source_t _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
+    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, period * NSEC_PER_SEC, 0*NSEC_PER_SEC); //每15秒执行
+    dispatch_source_set_event_handler(_timer, ^{    //在这里执行事件
+        [self tkThmenConfigClearnBlocks];
     });
+    dispatch_resume(_timer);
+    self.timer = _timer;
 }
 //清除可销毁block。进行清除销毁
 - (void)tkThmenConfigClearnBlocks{
-    //NSLog(@"ClearnBlocks");
+//    NSLog(@"ClearnBlocks");
     [self tkReloadThemeConfig:NO];
 }
 
